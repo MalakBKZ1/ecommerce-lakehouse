@@ -1,0 +1,22 @@
+{
+  "source": "Kaggle : mkechinov/ecommerce-behavior-data-from-multi-category-store",
+  "date_manifeste": "2026-11-21T11:56:49",
+  "fichiers": {
+    "2019-Oct.csv": {
+      "taille_go": 5.669,
+      "nb_lignes": 42448764,
+      "sha256": "fedd938409b5f836ec89b39c861b13dad99fc7cd9beb1fddd97a2d50488b5b80",
+      "entete": [
+        "event_time",
+        "event_type",
+        "product_id",
+        "category_id",
+        "category_code",
+        "brand",
+        "price",
+        "user_id",
+        "user_session"
+      ]
+    }
+  }
+}

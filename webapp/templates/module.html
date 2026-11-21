@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block contenu %}
+<h1>{{ phrase }}</h1>
+<section class="kpis">
+  {% for k in kpis %}
+  <div class="kpi {{ k[2] if k|length > 2 else '' }}"><span>{{ k[0] }}</span><strong>{{ k[1] }}</strong></div>
+  {% endfor %}
+</section>
+<section class="grille">
+  {% for g in graphiques %}
+  <article class="panneau" style="grid-column: span {{ g.span }}; --c: {{ g.couleur }}">
+    <h2>{{ g.titre }}</h2>
+    {{ g.svg | safe }}
+    {% if g.note %}<p class="note">{{ g.note }}</p>{% endif %}
+  </article>
+  {% endfor %}
+</section>
+{% endblock %}

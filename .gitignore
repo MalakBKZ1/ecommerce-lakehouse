@@ -6,3 +6,11 @@ kaggle.json
 __pycache__/
 log_*.txt
 docs/*_test.json
+
+data/
+.venv/
+config.env
+.env
+kaggle.json
+__pycache__/
+*.pyc

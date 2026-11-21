@@ -1,0 +1,30 @@
+{
+  "mode": "complet",
+  "lignes_staging": 42448764,
+  "rejets_total": 2,
+  "motifs": {
+    "conservees": 42448762,
+    "cle_manquante": 2
+  },
+  "stats": {
+    "lignes_silver": 42418542,
+    "clients_distincts": 3308390,
+    "sessions_distinctes": 8857215,
+    "prix_invalides": 68670,
+    "marque_inconnue": 6112126,
+    "categorie_inconnue": 13512262,
+    "doublons_supprimes": 30220,
+    "reconciliation_ok": true
+  },
+  "pourcentages": {
+    "rejets": 0.0,
+    "doublons": 0.0712,
+    "marque_inconnue": 14.41,
+    "categorie_inconnue": 31.85,
+    "prix_invalides": 0.16
+  },
+  "periode": [
+    "2019-10-01",
+    "2019-11-01"
+  ]
+}

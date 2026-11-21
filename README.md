@@ -1,5 +1,7 @@
 # Lakehouse e-commerce : comportement d'achat (REES46, octobre 2019)
 
+[English version](README.en.md)
+
 Projet Big Data de bout en bout : une chaîne de traitement **Bronze / Silver / Gold** avec PySpark sur 42 millions d'événements d'une boutique en ligne, suivie d'une **application web modulaire** de tableaux de bord (Flask, seaborn, matplotlib).
 
 ## Objectif

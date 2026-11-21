@@ -1,0 +1,42 @@
+{
+  "mode": "complet",
+  "evenements": {
+    "silver": 42418542,
+    "fait_heure": 42418542,
+    "fait_marque": 42418542,
+    "ok": true
+  },
+  "achats": {
+    "silver": 742773,
+    "fait_heure": 742773,
+    "ok": true
+  },
+  "ca": {
+    "fait_heure": 229933212.63,
+    "fait_marque": 229933212.63,
+    "fait_sessions": 229933212.63,
+    "ok": true
+  },
+  "sessions": {
+    "fait_sessions": 9244421,
+    "silver_distinct": 9244421,
+    "ok": true
+  },
+  "nb_retraits_total": 0,
+  "segments_rfm": {
+    "Clients réguliers": 106454,
+    "Meilleurs clients": 51728,
+    "Occasionnels": 27186,
+    "À réactiver": 161750
+  },
+  "nb_lignes_tables": {
+    "dim_date": 31,
+    "dim_heure": 24,
+    "dim_categorie": 14,
+    "dim_marque": 3446,
+    "dim_client_rfm": 347118,
+    "fact_activite_heure": 10200,
+    "fact_marque_jour": 101897,
+    "fact_sessions_jour": 31
+  }
+}
